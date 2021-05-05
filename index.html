@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!--Import materialize.css-->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="css/materialize.min.css"
+      media="screen,projection"
+    />
+    <link type="text/css" rel="stylesheet" href="css/main.css" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Material Design Theme by A2Zeta</title>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/edd737a9c9.js"></script>
+  </head>
+
+  <body class="scrollspy" id="home">
+    <div class="navbar-fixed">
+      <nav class="teal">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a href="#home" class="brand-logo">Nello is butt</a>
+            <a href="#" data-activates="mobile-nav" class="button-collapse"
+              ><i class="material-icons">menu</i></a
+            >
+            <ul class="right hide-on-med-and-down">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#search">Search</a></li>
+              <li><a href="#popular">Popular Places</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- .side-nav must be set outside of .navbar-fixed div -->
+    <ul class="side-nav" id="mobile-nav">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#search">Search</a></li>
+      <li><a href="#popular">Popular Places</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <!-- Slider #home -->
+    <section class="slider">
+      <ul class="slides">
+        <li>
+          <img src="img/beach-candles.jpg" alt="" />
+          <div class="caption center-align">
+            <h2>Take Your Dream Vacation</h2>
+            <h5 class="light grey-text text-lighten-4 hide-on-small-only">
+              Voyager works hard to secure the best hotel rates in the most
+              popular destinations. Browse hotels by destination to get started
+              and check out our hotel reviews, written by customers just like
+              you.
+            </h5>
+            <a href="#" class="btn btn-large">Yes, Please!</a>
+          </div>
+        </li>
+        <li>
+          <img src="img/beach-chairs.jpg" alt="" />
+          <div class="caption right-align">
+            <h2>We Work With ALL budgets</h2>
+            <h5 class="light grey-text text-lighten-4 hide-on-small-only">
+              We think our prices are the cheapest, and we've been everywhere!
+              If you can find a lower price, we’ll match it - that’s our Price
+              Match Guarantee.
+            </h5>
+            <a href="#" class="btn btn-large">Book Now</a>
+          </div>
+        </li>
+        <li>
+          <img src="img/blue-sky.jpg" alt="" />
+          <div class="caption left-align">
+            <h2>Group &amp; Individual Getaways</h2>
+            <h5 class="light grey-text text-lighten-4 hide-on-small-only">
+              From creating new adventures to visiting old familiar places,
+              everything's better with friends. Find out about our group rates
+              and discounts.
+            </h5>
+            <a href="#" class="btn btn-large">Learn More</a>
+          </div>
+        </li>
+        <li>
+          <img src="img/coconut-trees-hut.jpg" alt="" />
+          <div class="caption center-align">
+            <h2>You Could Be Here Right Now</h2>
+            <h5 class="light grey-text text-lighten-4 hide-on-small-only">
+              Looking for tropical vibes and ultimate relaxation? All-inclusive
+              resorts have all that, and more. View our top all-inclusive
+              resorts.
+            </h5>
+            <a href="#" class="btn btn-large">Let's Go!</a>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- #search section -->
+    <section
+      class="section section-search teal darken-1 white-text center scrollspy"
+      id="search"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <h5>Where's your dream destination?</h5>
+            <div class="input-field">
+              <input
+                type="text"
+                class="white grey-text autocomplete"
+                placeholder="Aruba, Cancun, Fiji? Maybe Mexico?"
+                id="autocomplete-input"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cards Section -->
+    <section class="section section-icon grey lighten-4 center">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m4">
+            <div class="card-panel">
+              <i class="material-icons large teal-text">room</i>
+              <h4>Pick Where</h4>
+              <p>
+                Update plans with no change or cancel fees from Voyager.
+              </p>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="card-panel">
+              <i class="material-icons large teal-text">store</i>
+              <h4>Travel Shop</h4>
+              <p>
+                If you find a lower price, we'll match it and refund the
+                difference.
+              </p>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="card-panel">
+              <i class="material-icons large teal-text">airplanemode_active</i>
+              <h4>Cheap Flights</h4>
+              <p>
+                Save an extra 10% or more on select airlines with Member
+                Discounts.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- #popular section -->
+    <section class="section section-popular scrollspy" id="popular">
+      <div class="container">
+        <div class="row">
+          <h4><span class="teal-text">Popular </span>Places</h4>
+          <p>
+            For great vacation values, check out our Featured Vacation Package
+            Deals.
+          </p>
+          <div class="col s12 m6 xl3">
+            <div class="card">
+              <div class="card-image">
+                <img src="img/beach-chairs.jpg" alt="Beach Chairs" />
+                <span class="card-title">Hawaii</span>
+              </div>
+              <div class="card-content">
+                <p>
+                  Discover the beauty, culture and adventures waiting for you on
+                  the Hawaiian Islands. Let's plan your perfect vacation.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 xl3">
+            <div class="card">
+              <div class="card-image">
+                <img src="img/beach-candles.jpg" alt="Beach Candles" />
+                <span class="card-title">Curacao</span>
+              </div>
+              <div class="card-content">
+                <p>
+                  Here in Curacao, you're free to explore every inch of our
+                  Caribbean paradise. Start planning your trip today, and Feel
+                  It For Yourself.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 xl3 right">
+            <div class="card">
+              <div class="card-image">
+                <img src="img/yosemite.jpg" alt="Yosemite" />
+                <span class="card-title">Yosemite</span>
+              </div>
+              <div class="card-content">
+                <p>
+                  Not just a great valley, but a shrine to human foresight, the
+                  strength of granite, the power of glaciers, and the
+                  persistence of life.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 xl3 left">
+            <div class="card">
+              <div class="card-image">
+                <img src="img/nova-scotia.jpg" alt="Nova Scotia" />
+                <span class="card-title">Nova Scotia</span>
+              </div>
+              <div class="card-content">
+                <p>
+                  Explore Nova Scotia holidays and discover the best time and
+                  places to visit. Face the wild swells of the Atlantic.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 center">
+            <a href="#contact" class="btn btn-large grey darken-3">
+              <i class="material-icons left">send</i>Contact for booking
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Follow section -->
+    <section class="section section-follow teal darken-2 white-text center">
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <h4>Follow Voyager</h4>
+            <p>Follow us on social media for exclusive offers and giveaways!</p>
+
+            <a href="https://facebook.com/" target="_blank" class="white-text">
+              <i class="fab fa-facebook fa-4x"></i>
+            </a>
+            <a href="https://twitter.com/" target="_blank" class="white-text">
+              <i class="fab fa-twitter fa-4x"></i>
+            </a>
+            <a href="https://instagram.com/" target="_blank" class="white-text">
+              <i class="fab fa-instagram fa-4x"></i>
+            </a>
+            <a href="https://youtube.com/" target="_blank" class="white-text">
+              <i class="fab fa-youtube fa-4x"></i>
+            </a>
+            <a href="https://linkedin.com/" target="_blank" class="white-text">
+              <i class="fab fa-linkedin fa-4x"></i>
+            </a>
+            <a href="https://pinterest.com/" target="_blank" class="white-text">
+              <i class="fab fa-pinterest fa-4x"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- #gallery section -->
+    <section class="section section-gallery scrollspy" id="gallery">
+      <div class="container">
+        <h4 class="center"><span class="teal-text">Photo</span> Gallery</h4>
+        <div class="row">
+          <div class="col s12 m3">
+            <img
+              src="https://source.unsplash.com/1600x900?beach"
+              alt=""
+              class="material-boxed responsive-img"
+            />
+          </div>
+          <div class="col s12 m3">
+            <img
+              src="https://source.unsplash.com/1600x900?travel"
+              alt=""
+              class="material-boxed responsive-img"
+            />
+          </div>
+          <div class="col s12 m3">
+            <img
+              src="https://source.unsplash.com/1600x900?nature"
+              alt=""
+              class="material-boxed responsive-img"
+            />
+          </div>
+          <div class="col s12 m3">
+            <img
+              src="https://source.unsplash.com/1600x900?travel,nature"
+              alt=""
+              class="material-boxed responsive-img"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m3">
+            <img
+              src="https://source.unsplash.com/1600x900?park,fun"
+              alt=""
+              class="material-boxed responsive-img"
+            />
+          </div>
+          <div class="col s12 m3">
+            <img
+              src="https://source.unsplash.com/1600x900?bridge"
+              alt=""
+              class="material-boxed responsive-img"
+            />
+          </div>
+          <div class="col s12 m3">
+            <img
+              src="https://source.unsplash.com/1600x900?sky"
+              alt=""
+              class="material-boxed responsive-img"
+            />
+          </div>
+          <div class="col s12 m3">
+            <img
+              src="https://source.unsplash.com/1600x900?ocean"
+              alt=""
+              class="material-boxed responsive-img"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m3">
+            <img
+              src="https://source.unsplash.com/1600x900?water"
+              alt=""
+              class="material-boxed responsive-img"
+            />
+          </div>
+          <div class="col s12 m3">
+            <img
+              src="https://source.unsplash.com/1600x900?building"
+              alt=""
+              class="material-boxed responsive-img"
+            />
+          </div>
+          <div class="col s12 m3">
+            <img
+              src="https://source.unsplash.com/1600x900?trees"
+              alt=""
+              class="material-boxed responsive-img"
+            />
+          </div>
+          <div class="col s12 m3">
+            <img
+              src="https://source.unsplash.com/1600x900?cruise"
+              alt=""
+              class="material-boxed responsive-img"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- #contact section -->
+    <section class="section section-contact scrollspy" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m6">
+            <div class="card-panel teal white-text center">
+              <i class="material-icons small">chat</i>
+              <h5>Never Voyage Alone</h5>
+              <p>
+                Use this form if you have any questions or concerns we might be
+                able to help you with before you get started booking your dream
+                vacation. Exceptional service, 24/7 support. Perfect getaways
+                start here.
+              </p>
+            </div>
+            <ul class="collection with-header">
+              <li class="collection-header center">
+                <h5>Voyager Travel Agency</h5>
+              </li>
+              <li class="collection-item center">Address:</li>
+              <li class="collection-item center">
+                3130 Sawtelle Blvd, Apt 210<br />Los Angeles CA, 90066
+              </li>
+              <li class="collection-item center">Phone:</li>
+              <li class="collection-item center">
+                <a href="tel:9516621120" class="black-text lighten-4"
+                  >(951) 662-1120</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col s12 m6">
+            <div class="card-panel grey lighten-3">
+              <h4 id="form_heading">Contact Voyager</h4>
+              <div class="input-field">
+                <input type="text" placeholder="Michael Zeta" id="name" />
+                <label for="name">Name</label>
+              </div>
+              <div class="input-field">
+                <input
+                  type="email"
+                  placeholder="michael@a2zeta.com"
+                  id="email"
+                />
+                <label for="email">Email</label>
+              </div>
+              <div class="input-field">
+                <input type="text" placeholder="(951) 662-1120" id="phone" />
+                <label for="phone">Phone</label>
+              </div>
+              <div class="input-field">
+                <textarea
+                  class="materialize-textarea"
+                  placeholder="How can we help you today?"
+                  id="message"
+                ></textarea>
+                <label for="message">Message</label>
+              </div>
+              <a href="https://a2zeta.com/" class="btn">Submit</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="section teal darken-4 white-text center">
+      <p class="flow-text">
+        Voyager
+      </p>
+      <p>Copyright &copy; 2020 A2Zeta Creative Design</p>
+    </footer>
+
+    <!--Import jQuery before materialize.js-->
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+    ></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        // Init sideNav
+        $('.button-collapse').sideNav();
+        // Init Slider
+        $('.slider').slider({
+          indicators: false,
+          height: 500,
+          transition: 500,
+          interval: 6000
+        });
+        //Init Autocomplete
+        $('.autocomplete').autocomplete({
+          data: {
+            Aruba: null,
+            Braavos: null,
+            Bahamas: null,
+            Cancun: null,
+            Denmark: null,
+            Dorne: null,
+            Dragonstone: null,
+            England: null,
+            Florida: null,
+            Greenland: null,
+            Hawaii: null,
+            Iceland: null,
+            'Kings Landing': null,
+            Japan: null,
+            Kirghistan: null,
+            'Los Angeles': null,
+            Maui: null,
+            Mexico: null,
+            Norway: null,
+            Ottawa: null,
+            Paris: null,
+            Pentos: null,
+            Qarth: null,
+            'Rhode Island': null,
+            Sweden: null,
+            Thailand: null,
+            Uruguay: null,
+            Venice: null,
+            Volantis: null,
+            Whales: null,
+            Winterfell: null,
+            Yosemite: null,
+            'New Zealand': null
+          }
+        });
+        // Init Scrollspy
+        $('.scrollspy').scrollSpy();
+      });
+    </script>
+  </body>
+</html>
