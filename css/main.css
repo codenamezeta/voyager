@@ -22,3 +22,24 @@
 #form_heading {
   margin-bottom: 30px;
 }
+
+.card-image img {
+  height: 200px;
+}
+
+.text-shadow {
+  text-shadow: -1px 1px #000;
+}
+
+.caption h5 {
+  max-width: 60ch;
+  /* margin: 0 auto; */
+}
+
+.center-align h5 {
+  margin: 0 auto;
+}
+
+.right-align h5 {
+  margin: 0 0 0 auto;
+}
